@@ -1,0 +1,234 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD-2023-1001",
+      "customerId": "CUST-1001",
+      "date": "2023-01-15",
+      "status": "Shipped",
+      "totalAmount": 1349.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1001",
+          "quantity": 1,
+          "price": 1299.99
+        },
+        {
+          "productId": "PROD-1002",
+          "quantity": 1,
+          "price": 49.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "123 Main St, Anytown USA",
+        "shippingDate": "2023-01-20"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1002",
+      "customerId": "CUST-1002",
+      "date": "2023-02-20",
+      "status": "Delivered",
+      "totalAmount": 479.97,
+      "lineItems": [
+        {
+          "productId": "PROD-1003",
+          "quantity": 1,
+          "price": 79.99
+        },
+        {
+          "productId": "PROD-1004",
+          "quantity": 1,
+          "price": 399.98
+        }
+      ],
+      "deliveryInfo": {
+        "address": "456 Oak Ave, Anytown USA",
+        "shippingDate": "2023-02-25"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1003",
+      "customerId": "CUST-1003",
+      "date": "2023-03-10",
+      "status": "Pending",
+      "totalAmount": 289.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1005",
+          "quantity": 1,
+          "price": 249.99
+        },
+        {
+          "productId": "PROD-1006",
+          "quantity": 1,
+          "price": 39.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "789 Pine Ln, Anytown USA",
+        "shippingDate": "2023-03-15"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1004",
+      "customerId": "CUST-1004",
+      "date": "2023-04-05",
+      "status": "Shipped",
+      "totalAmount": 159.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1007",
+          "quantity": 1,
+          "price": 99.99
+        },
+        {
+          "productId": "PROD-1008",
+          "quantity": 1,
+          "price": 59.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "101 Elm Rd, Anytown USA",
+        "shippingDate": "2023-04-10"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1005",
+      "customerId": "CUST-1005",
+      "date": "2023-05-12",
+      "status": "Delivered",
+      "totalAmount": 349.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1009",
+          "quantity": 1,
+          "price": 149.99
+        },
+        {
+          "productId": "PROD-1010",
+          "quantity": 1,
+          "price": 199.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "222 Maple Dr, Anytown USA",
+        "shippingDate": "2023-05-17"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1006",
+      "customerId": "CUST-1006",
+      "date": "2023-06-01",
+      "status": "Pending",
+      "totalAmount": 54.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1011",
+          "quantity": 1,
+          "price": 29.99
+        },
+        {
+          "productId": "PROD-1012",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "333 Birch Ct, Anytown USA",
+        "shippingDate": "2023-06-06"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1007",
+      "customerId": "CUST-1007",
+      "date": "2023-07-01",
+      "status": "Pending",
+      "totalAmount": 54.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1011",
+          "quantity": 1,
+          "price": 29.99
+        },
+        {
+          "productId": "PROD-1012",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "333 Birch Ct, Anytown USA",
+        "shippingDate": "2023-06-06"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1008",
+      "customerId": "CUST-1008",
+      "date": "2023-08-01",
+      "status": "Pending",
+      "totalAmount": 54.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1011",
+          "quantity": 1,
+          "price": 29.99
+        },
+        {
+          "productId": "PROD-1012",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "333 Birch Ct, Anytown USA",
+        "shippingDate": "2023-06-06"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1009",
+      "customerId": "CUST-1009",
+      "date": "2023-09-01",
+      "status": "Pending",
+      "totalAmount": 54.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1011",
+          "quantity": 1,
+          "price": 29.99
+        },
+        {
+          "productId": "PROD-1012",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "333 Birch Ct, Anytown USA",
+        "shippingDate": "2023-06-06"
+      }
+    },
+    {
+      "orderId": "ORD-2023-1010",
+      "customerId": "CUST-1010",
+      "date": "2023-10-01",
+      "status": "Pending",
+      "totalAmount": 54.98,
+      "lineItems": [
+        {
+          "productId": "PROD-1011",
+          "quantity": 1,
+          "price": 29.99
+        },
+        {
+          "productId": "PROD-1012",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "deliveryInfo": {
+        "address": "333 Birch Ct, Anytown USA",
+        "shippingDate": "2023-06-06"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "customers": [
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.123@example.com",
+      "phone": "555-123-4567",
+      "companyName": "Acme Corp",
+      "jobTitle": "Software Engineer",
+      "address": "123 Main St, Anytown USA",
+      "termsAndConditions": true
+    },
+    {
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.789@example.com",
+      "phone": "555-987-6543",
+      "companyName": "Beta Inc",
+      "jobTitle": "Project Manager",
+      "address": "456 Oak Ave, Anytown USA",
+      "termsAndConditions": false
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Williams",
+      "email": "bob.abc@example.com",
+      "phone": "555-111-2222",
+      "companyName": "Gamma Ltd",
+      "jobTitle": "Data Scientist",
+      "address": "789 Pine Ln, Anytown USA",
+      "termsAndConditions": true
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Brown",
+      "email": "emily.def@example.com",
+      "phone": "555-333-4444",
+      "companyName": "Delta Co",
+      "jobTitle": "Marketing Manager",
+      "address": "101 Elm Rd, Anytown USA",
+      "termsAndConditions": false
+    },
+    {
+      "firstName": "David",
+      "lastName": "Garcia",
+      "email": "david.ghi@example.com",
+      "phone": "555-555-6666",
+      "companyName": "Epsilon Group",
+      "jobTitle": "Sales Representative",
+      "address": "222 Maple Dr, Anytown USA",
+      "termsAndConditions": true
+    },
+    {
+      "firstName": "Sophia",
+      "lastName": "Rodriguez",
+      "email": "sophia.jkl@example.com",
+      "phone": "555-777-8888",
+      "companyName": "Zeta Corp",
+      "jobTitle": "Financial Analyst",
+      "address": "333 Birch Ct, Anytown USA",
+      "termsAndConditions": false
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Wilson",
+      "email": "michael.mno@example.com",
+      "phone": "555-999-0000",
+      "companyName": "Eta Inc",
+      "jobTitle": "Human Resources Manager",
+      "address": "444 Cedar St, Anytown USA",
+      "termsAndConditions": true
+    },
+    {
+      "firstName": "Olivia",
+      "lastName": "Martinez",
+      "email": "olivia.pqr@example.com",
+      "phone": "555-222-3333",
+      "companyName": "Theta Ltd",
+      "jobTitle": "Operations Manager",
+      "address": "555 Walnut Ave, Anytown USA",
+      "termsAndConditions": false
+    },
+    {
+      "firstName": "Ethan",
+      "lastName": "Anderson",
+      "email": "ethan.stu@example.com",
+      "phone": "555-444-5555",
+      "companyName": "Iota Co",
+      "jobTitle": "Customer Service Representative",
+      "address": "666 Cherry Ln, Anytown USA",
+      "termsAndConditions": true
+    },
+    {
+      "firstName": "Isabella",
+      "lastName": "Taylor",
+      "email": "isabella.vwx@example.com",
+      "phone": "555-666-7777",
+      "companyName": "Kappa Group",
+      "jobTitle": "Technical Support Specialist",
+      "address": "777 Pine Rd, Anytown USA",
+      "termsAndConditions": false
+    }
+  ]
+}

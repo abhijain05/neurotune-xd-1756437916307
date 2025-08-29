@@ -1,0 +1,66 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          xmlns:layout="sap.ui.layout"
+          xmlns:form="sap.ui.layout.form"
+          xmlns:core="sap.ui.core"
+          controllerName="converted.customerregistrationview.controller.CustomerRegistrationView"
+          displayBlock="true"
+          xmlns:commons="sap.ui.commons">
+  <Page title="Employee Registration">
+    <content>
+      <form:SimpleForm id="formContainer"
+                       editable="true"
+                       layout="ResponsiveGridLayout"
+                       title="Employee Registration"
+                       labelSpanXL="4"
+                       labelSpanL="3"
+                       labelSpanM="4"
+                       labelSpanS="12"
+                       adjustLabelSpan="false"
+                       emptySpanXL="0"
+                       emptySpanL="4"
+                       emptySpanM="0"
+                       emptySpanS="0"
+                       columnsXL="2"
+                       columnsL="1"
+                       columnsM="1"
+                       singleContainerFullSize="false">
+        <form:content>
+          <Label text="First Name" id="firstNameLabel"/>
+          <Input id="firstNameField" value="{formData>/firstName}" required="false" ariaLabelledBy="firstNameLabel"/>
+
+          <Label text="Last Name" id="lastNameLabel"/>
+          <Input id="lastNameField" value="{formData>/lastName}" required="false" ariaLabelledBy="lastNameLabel"/>
+
+          <Label text="Email" required="true" id="emailLabel"/>
+          <Input id="emailField" value="{formData>/email}" type="Email" required="true" ariaRequired="true" ariaLabelledBy="emailLabel"/>
+
+          <Label text="Phone Number" id="phoneLabel"/>
+          <Input id="phoneField" value="{formData>/phone}" type="Tel" ariaLabelledBy="phoneLabel"/>
+
+          <Label text="Company Name" id="companyLabel"/>
+          <Input id="companyField" value="{formData>/companyName}" ariaLabelledBy="companyLabel"/>
+
+          <Label text="Job Title" id="jobTitleLabel"/>
+          <Input id="jobTitleField" value="{formData>/jobTitle}" ariaLabelledBy="jobTitleLabel"/>
+
+          <Label text="Address" id="addressLabel"/>
+          <Input id="addressField" value="{formData>/address}" ariaLabelledBy="addressLabel"/>
+
+          <Label text="Terms and Conditions" id="termsLabel"/>
+          <CheckBox id="termsCheckbox" selected="{formData>/termsAndConditions}" text="I agree to the terms and conditions" ariaLabelledBy="termsLabel"/>
+
+          <Button id="submitButton" text="Submit" press="onSubmit" type="Emphasized" tooltip="Submit Registration"/>
+
+          <MessageStrip
+            text="This is a sample application. No data will be saved."
+            type="Information"
+            showIcon="true"
+            class="sapUiResponsiveMargin"/>
+            
+          <Button id="messagePopoverBtn" icon="sap-icon://message-popup" press="handleMessagePopoverPress" tooltip="Show Messages"/>
+        </form:content>
+      </form:SimpleForm>
+    </content>
+  </Page>
+</mvc:View>

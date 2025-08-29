@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "PROD-1001",
+      "name": "Laptop Pro",
+      "description": "High-performance laptop for professionals",
+      "category": "Electronics",
+      "price": 1299.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/laptop.jpg"
+    },
+    {
+      "id": "PROD-1002",
+      "name": "Ergonomic Mouse",
+      "description": "Comfortable mouse for long hours of use",
+      "category": "Accessories",
+      "price": 49.99,
+      "inventoryStatus": "Out of Stock",
+      "imageUrl": "https://example.com/mouse.jpg"
+    },
+    {
+      "id": "PROD-1003",
+      "name": "Wireless Keyboard",
+      "description": "Sleek and silent wireless keyboard",
+      "category": "Accessories",
+      "price": 79.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/keyboard.jpg"
+    },
+    {
+      "id": "PROD-1004",
+      "name": "4K Monitor",
+      "description": "High-resolution monitor for immersive viewing",
+      "category": "Electronics",
+      "price": 399.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/monitor.jpg"
+    },
+    {
+      "id": "PROD-1005",
+      "name": "Office Chair",
+      "description": "Ergonomic chair for comfortable seating",
+      "category": "Furniture",
+      "price": 249.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/chair.jpg"
+    },
+    {
+      "id": "PROD-1006",
+      "name": "Desk Lamp",
+      "description": "Adjustable desk lamp for optimal lighting",
+      "category": "Accessories",
+      "price": 39.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/lamp.jpg"
+    },
+    {
+      "id": "PROD-1007",
+      "name": "External Hard Drive",
+      "description": "Portable hard drive for data storage",
+      "category": "Electronics",
+      "price": 99.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/harddrive.jpg"
+    },
+    {
+      "id": "PROD-1008",
+      "name": "Webcam",
+      "description": "High-definition webcam for video conferencing",
+      "category": "Electronics",
+      "price": 59.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/webcam.jpg"
+    },
+    {
+      "id": "PROD-1009",
+      "name": "Printer",
+      "description": "All-in-one printer for home and office",
+      "category": "Electronics",
+      "price": 149.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/printer.jpg"
+    },
+    {
+      "id": "PROD-1010",
+      "name": "Headphones",
+      "description": "Noise-canceling headphones for immersive audio",
+      "category": "Electronics",
+      "price": 199.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/headphones.jpg"
+    },
+    {
+      "id": "PROD-1011",
+      "name": "Monitor Stand",
+      "description": "Adjustable monitor stand for ergonomic setup",
+      "category": "Accessories",
+      "price": 29.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/monitorstand.jpg"
+    },
+    {
+      "id": "PROD-1012",
+      "name": "USB Hub",
+      "description": "Multi-port USB hub for connecting multiple devices",
+      "category": "Accessories",
+      "price": 24.99,
+      "inventoryStatus": "In Stock",
+      "imageUrl": "https://example.com/usbhub.jpg"
+    }
+  ]
+}
